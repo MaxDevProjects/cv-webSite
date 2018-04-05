@@ -1,0 +1,98 @@
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 1px solid rgb(135, 247, 228);
+    box-shadow: 0px 1px 1px  rgb(135, 247, 228);
+}
+
+header ul{
+    list-style-type:none;
+    display: flex;
+    justify-content: flex-end;
+    margin: auto;
+    padding: 4px;
+}
+
+
+#imgLinkedIN, #imgTwitter, #imgFacebook{
+    display: inline-flex;
+    margin: 5px;
+}
+#francais, #english{
+    display: inline-flex;
+    margin: 1px;
+}
+
+#section1{
+    background-color: chocolate;
+    display: grid;
+}
+
+#section1 li{
+    list-style-type: none;
+    font-size: 150%;
+    text-align: end;
+    border: 1px solid black;
+    padding: 4px; 
+    margin: 2px 10px 0% 88%;
+}
+
+
+#section1 ul{
+    display:flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+}
+
+
+ #titre{
+     display: flex;
+     position: absolute;
+     margin: 25px;
+ }
+
+ #sous-titre{
+    display: flex;
+    position: absolute;
+    right: 15%;
+    top: 15%;
+ }
+
+#photoID, #nom{
+    display: flex;
+    margin: auto;
+}
+
+ #section2{
+     background-color: chartreuse;
+     display: grid; 
+     grid-template-columns: auto auto; 
+ }
+
+ #presentation, #formations{
+     display: block;
+     font-size: 125%;  
+    }
+    
+    #presentation{
+        text-align: left;
+        margin: 25% 0% 25% 25%;
+
+  }
+  #formations {
+      text-align: right;
+       margin: 25% 25% 25% 25%;
+  }
+
+  #section3{
+    background-color: rgb(210, 30, 195);
+    display: grid;
+  }
+
+  #section4{
+    background-color: rgb(210, 30, 30);
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
