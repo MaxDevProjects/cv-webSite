@@ -151,8 +151,71 @@ header{
     background-color: #b1dfda;
 }
 
-.block-left{
+.blocks{
     display: flex;
     flex-wrap: wrap;
+}
+
+.blocks h2{
+    padding: 35px;
+}
+
+.block-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex: 50%;
+    background-color: rgb(0, 255, 179);
+    padding: 35px;
+    text-align: center;
+}
+
+.block-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex: 50%;
+    background-color: #333333;
+    padding: 35px;
+    text-align: center;    
+}
+
+.block-left, .block-right{
+    border: 5px solid black;
+}
+
+#formations{
+    display: flex;
+    flex-direction: row;
+}
+
+.__2018, .__2017, .__2015{
+    display: inline-flex;
+    border: 2px solid red;
+    margin: 2px 2px 2px 2px;
+    padding: 2px;
+}
+
+.formationType{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.dates{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+}
+
+.etablissement{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.etablissement>.__2018{
+    margin: 10% 0px 10% 0px;
 }
 /*****************************/
